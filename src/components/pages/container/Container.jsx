@@ -1,12 +1,23 @@
 import "./Container.css";
 import React from "react";
-import ControlledCarousel from "../../features/carousel/Carousel";
+import { Switch, Route } from "react-router-dom";
+import { WelcomePage, useStatePage } from "./index.js";
+// הערות
+// להוסיף ולעדכן עוד ראוטים במידה ויש צורך להוקים נוספים
 
 const Container = () => {
   return (
     <div className="container-body">
-      <h1>ברוכים הבאים </h1>
-      <ControlledCarousel className="carousel-container" />
+      <Switch>
+        <Route exact path="/" component={WelcomePage} />
+        <Route exact path="/useState" component={useStatePage} />
+        <Route exact path="/useEffect" />
+        <Route exact path="/useContext" />
+        <Route exact path="/useLayoutEffect" />
+        <Route exact path="/useReducer" />
+        <Route exact path="/useCallBack" />
+        <Route exact path="/useRef" />
+      </Switch>
     </div>
   );
 };
