@@ -6,3 +6,10 @@
 .App {
   text-align: center;
 }
+
+.align-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40rem;
+}

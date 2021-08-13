@@ -1,0 +1,14 @@
+.header-body {
+  height: 5rem;
+  border-bottom: 0.3px groove rgba(0, 0, 0, 0.205);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 15px;
+}
+
+.grid-column-one {
+  border-right: 1px groove rgba(0, 0, 0, 0.205);
+}
+.grid-column-three {
+  border-left: 1px groove rgba(0, 0, 0, 0.205);
+}
