@@ -6,6 +6,13 @@ import Container from "./components/pages/container/Container";
 import Header from "./components/features/header/Header";
 import { BrowserRouter as Router } from "react-router-dom";
 
+// Routes Link at SideBar Components;
+// What i recommend you to begin with:
+// - Using useTranslate Hook on the application at <Header/> Component on Select > Options Method.
+// - Search Input - using filter and OnChange to get the hooks routes;
+// - Continue the Routes and add Content for each Hook.
+// - if finished , Try to begin and make the Website Responsive for phones.
+
 const App = () => {
   return (
     <Router>
