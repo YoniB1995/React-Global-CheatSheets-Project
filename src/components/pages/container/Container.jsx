@@ -1,7 +1,7 @@
 import "./Container.css";
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { WelcomePage, useStatePage } from "./index.js";
+import { WelcomePage, useStatePage } from "../routesPages/index";
 // הערות
 // להוסיף ולעדכן עוד ראוטים במידה ויש צורך להוקים נוספים
 
