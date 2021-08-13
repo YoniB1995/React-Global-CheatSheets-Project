@@ -1,4 +1,7 @@
 .footer-body {
-  height: 4rem;
+  font-size: 15px;
+  height: 3rem;
   border-top: 0.3px groove rgba(0, 0, 0, 0.205);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
