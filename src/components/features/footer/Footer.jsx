@@ -17,11 +17,21 @@ const Footer = () => {
       </div>
       <div className="social-contact">
         <h6>
-          <a href="https://github.com/YoniB1995" className="">
+          <a
+            href="https://github.com/YoniB1995"
+            className="social-link"
+            target="_blank"
+          >
             SlumpG
           </a>
           <span>|</span>
-          <a href="https://github.com/YoniB1995">YoniB</a>
+          <a
+            href="https://github.com/YoniB1995"
+            className="social-link"
+            target="_blank"
+          >
+            YoniB
+          </a>
         </h6>
         <div>
           <FontAwesomeIcon icon={faLinkedin} />
@@ -29,9 +39,21 @@ const Footer = () => {
       </div>
       <div className="social-contact">
         <h6>
-          <a href="https://github.com/YoniB1995">SlumpG</a>
+          <a
+            href="https://github.com/SlumpG"
+            className="social-link"
+            target="_blank"
+          >
+            SlumpG
+          </a>
           <span>|</span>
-          <a href="https://github.com/YoniB1995">YoniB</a>
+          <a
+            href="https://github.com/YoniB1995"
+            className="social-link"
+            target="_blank"
+          >
+            YoniB
+          </a>
         </h6>
         <div>
           <FontAwesomeIcon icon={faGithub} />
